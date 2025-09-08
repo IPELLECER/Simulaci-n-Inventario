@@ -50,7 +50,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         Random random = new Random();
 
-        
+
         int inventarioInicial = random.nextInt(101); // 0-100
         int numProductores = random.nextInt(5) + 1;  // 1-5
         int numConsumidores = random.nextInt(5) + 1; // 1-5
